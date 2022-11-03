@@ -3,8 +3,12 @@ import React, { Component } from 'react';
 
 
 class Spamalot extends Component {
-// your code here...   
-}
+    render(){
+        
+        return (
+            new Array(500).fill(<Spam />)
+        )
+    }}
 
 export default Spamalot
 
